@@ -1,18 +1,20 @@
 #include <stdio.h>					// 标准输入/输出库
 #include <stdlib.h>					// 标准库
 #include <unistd.h>					// 对POSIX操作系统API访问的头文件
-#include <time.h>
-#include <signal.h>
-#include <poll.h>
-#include <sys/param.h>
-#include <sys/socket.h>
+#include <time.h>					// 时间操作
+#include <signal.h>					// 两个函数，进程间通信，signal与raise
+#include <poll.h>					// ? ? ? ? ?
+#include <sys/param.h>				// 与机器无关的一些定义，优先级
+#include <sys/socket.h>				// 
 #include <linux/types.h>
 #include <linux/sockios.h>
+
 #include <sys/file.h>
 #include <sys/time.h>
 #include <sys/ioctl.h>
 #include <net/if.h>
 #include <sys/uio.h>
+
 #include <ctype.h>
 #include <errno.h>
 #include <string.h>
