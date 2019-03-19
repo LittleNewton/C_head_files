@@ -1,4 +1,4 @@
-# stdlib.h中蕴含的函数
+# ```stdlib.h```
 
 ## 1. 函数名称 ```calloc```
 
